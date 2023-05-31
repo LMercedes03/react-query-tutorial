@@ -7,7 +7,6 @@ const queryClient = new QueryClient({});
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
-    
 
       {/* The rest of your application */}
 
